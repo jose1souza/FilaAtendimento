@@ -10,7 +10,7 @@ class Fila {
         this.#fim = -1;
         this.#qtd = 0;
         this.#elementos = new Array(tamanho); // instanciando um vetor
-    } // fim do construtor
+    } // fim do constructor
 
     // Metódos
     isFull(){ // verifica se está cheio
@@ -55,7 +55,7 @@ class Fila {
         for(let i = this.#inicio;i <= this.#fim;i++){ // percorre do inicio até o fim
             filaString += this.#elementos[i] + " |"; // recebe os elementos da fila
         } // fim do for
-        console.log(filaString);
+        //console.log(filaString);
         return filaString; // mostrando a fila
     }
 
