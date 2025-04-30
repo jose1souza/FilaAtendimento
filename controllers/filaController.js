@@ -1,4 +1,4 @@
-const minhaFila = new Fila(5); // criando minha fila com tamanho 5 dentro do controlador
+const minhaFila = new FilaCircular(5); // criando minha fila com tamanho 5 dentro do controlador
 
 function addElemento(){ // função de adicionar um elemento que foi digitado na caixa de texto
     const novoElemento = 

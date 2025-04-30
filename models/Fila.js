@@ -55,7 +55,7 @@ class Fila {
         for(let i = this.#inicio;i <= this.#fim;i++){ // percorre do inicio até o fim
             filaString += this.#elementos[i] + " |"; // recebe os elementos da fila
         } // fim do for
-        //console.log(filaString);
+        console.log(filaString);
         return filaString; // mostrando a fila
     }
 
