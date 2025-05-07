@@ -59,4 +59,18 @@ class Fila {
         return filaString; // mostrando a fila
     }
 
+    [Symbol.iterator]() {
+        let i = this.#inicio;
+        let fim = this.#fim;
+        return {
+            next: () => {
+                if (i <= fim) {
+                    return { value: this.#elementos[i++], done: false };
+                } else {
+                    return { done: true };
+                }
+            }
+        };
+    }
+
 } // fim da classe
