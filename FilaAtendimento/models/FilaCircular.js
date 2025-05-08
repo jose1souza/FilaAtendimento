@@ -91,6 +91,8 @@ class FilaCircular{
         };
     }
 
+
+
     // criar uma classe atendimento
     //usar o get data e hora util.js
     // usar o iterator
