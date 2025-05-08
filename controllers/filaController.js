@@ -14,7 +14,7 @@ function addElemento(){ // função de adicionar um elemento que foi digitado na
         mostrarFila();
         nome.value = ""; // limpa
         cpf.value = "";
-        //nome.value.focus(); // cursor no input
+        //nome.focus(); // cursor no input
         } // fim do if
     else
         alert("Fila cheia!");
